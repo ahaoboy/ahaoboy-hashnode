@@ -11,7 +11,7 @@ Test table style
 
 [ahaoboy/js-engine-benchmark](https://github.com/ahaoboy/js-engine-benchmark)
 
-## [Engine & Runtime (27/32)](https://github.com/ahaoboy/js-engine-benchmark)
+## Engine & Runtime (27/32)
 
 | name | repo | score | platform | description |
 | --- | --- | --- | --- | --- |
