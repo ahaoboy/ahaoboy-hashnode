@@ -11,9 +11,9 @@ Test table style
 
 [ahaoboy/js-engine-benchmark](https://github.com/ahaoboy/js-engine-benchmark)
 
-## Engine & Runtime (27/32)
+## **Engine & Runtime (27/32)**
 
-| name | repo | score | platform | description |
+| **name** | **repo** | **score** | **platform** | **description** |
 | --- | --- | --- | --- | --- |
 | JavaScriptCore | [JavaScriptCore](https://github.com/WebKit/webkit/tree/main/Source/JavaScriptCore)  
   
@@ -31,7 +31,7 @@ Test table style
 ✅macArm  
 ✅macAmd  
 ✅windows | Incredibly fast JavaScript runtime, bundler, test runner, and package manager – all in one |
-| v8 | [v8.dev](http://v8.dev)  
+| v8 | [v8.dev](https://v8.dev/)  
   
 [v8-build](https://github.com/ahaoboy/v8-build) | 44638  
 53.3M  
@@ -69,7 +69,7 @@ Test table style
 ❌macArm  
 ✅macAmd  
 ✅windows | ChakraCore is an open source Javascript engine with a C API |
-| spidermonkey | [spidermonkey.dev](http://spidermonkey.dev)  
+| spidermonkey | [spidermonkey.dev](https://spidermonkey.dev/)  
   
 [spidermonkey-build](https://github.com/ahaoboy/spidermonkey-build) | 18900  
 39.7M  
@@ -212,7 +212,7 @@ Test table style
 8/M | ✅unix  
 ✅macArm  
 ✅macAmd  
-✅windows | A JavaScript engine written in Zig [https://kiesel.dev](https://kiesel.dev) |
+✅windows | A JavaScript engine written in Zig [https://kiesel.dev](https://kiesel.dev/) |
 | JerryScript | [jerryscript](https://github.com/jerryscript-project/jerryscript)  
   
 [jerryscript-build](https://github.com/ahaoboy/jerryscript-build) | 454.2K | ❌unix  
@@ -237,10 +237,6 @@ Test table style
 ❌macArm  
 ❌macAmd  
 ❌windows | A subset of JavaScript language to use in nginx |
-
-## bench
-
-6/23/2025, 1:53:10 AM
 
 ### ubuntu
 
