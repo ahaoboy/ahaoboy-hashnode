@@ -11,232 +11,46 @@ Test table style
 
 [ahaoboy/js-engine-benchmark](https://github.com/ahaoboy/js-engine-benchmark)
 
-## **Engine & Runtime (27/32)**
+## Engine & Runtime (27/32)
 
-| **name** | **repo** | **score** | **platform** | **description** |
+| name | repo | score | platform | description |
 | --- | --- | --- | --- | --- |
-| JavaScriptCore | [JavaScriptCore](https://github.com/WebKit/webkit/tree/main/Source/JavaScriptCore)  
-  
-[jsc-build](https://github.com/ahaoboy/jsc-build) | 47510  
-37.4M  
-1268/M | ✅unix  
-✅macArm  
-✅macAmd  
-✅windows | JavaScriptCore is the built-in JavaScript engine for WebKit, which implements ECMAScript as in ECMA-262 specification |
-| bun | [bun](https://github.com/oven-sh/bun)  
-  
-[setup-bun](https://github.com/oven-sh/setup-bun) | 46658  
-96.8M  
-482/M | ✅unix  
-✅macArm  
-✅macAmd  
-✅windows | Incredibly fast JavaScript runtime, bundler, test runner, and package manager – all in one |
-| v8 | [v8.dev](https://v8.dev/)  
-  
-[v8-build](https://github.com/ahaoboy/v8-build) | 44638  
-53.3M  
-838/M | ✅unix  
-✅macArm  
-✅macAmd  
-✅windows | V8 is Google’s open source high-performance JavaScript and WebAssembly engine |
-| node | [node](https://github.com/nodejs/node)  
-  
-[setup-node](https://github.com/actions/setup-node) | 39849  
-121.4M  
-328/M | ✅unix  
-✅macArm  
-✅macAmd  
-✅windows | Node.js JavaScript runtime |
-| deno | [deno](https://github.com/denoland/deno)  
-  
-[setup-deno](https://github.com/denoland/setup-deno) | 38797  
-101.1M  
-383/M | ✅unix  
-✅macArm  
-✅macAmd  
-✅windows | A modern runtime for JavaScript and TypeScript |
-| dune | [dune](https://github.com/aalykiot/dune) | 38586  
-67.1M  
-574/M | ✅unix  
-✅macArm  
-✅macAmd  
-✅windows | JavascriptA hobby runtime for JavaScript and TypeScript |
-| ChakraCore | [ChakraCore](https://github.com/chakra-core/ChakraCore)  
-  
-[ChakraCore-build](https://github.com/ahaoboy/ChakraCore-build) | 20038  
-19.4M  
-1032/M | ✅unix  
-❌macArm  
-✅macAmd  
-✅windows | ChakraCore is an open source Javascript engine with a C API |
-| spidermonkey | [spidermonkey.dev](https://spidermonkey.dev/)  
-  
-[spidermonkey-build](https://github.com/ahaoboy/spidermonkey-build) | 18900  
-39.7M  
-476/M | ✅unix  
-✅macArm  
-✅macAmd  
-✅windows | SpiderMonkey is Mozilla’s JavaScript and WebAssembly Engine, used in Firefox |
-| mozjs | [mozjs](https://github.com/servo/mozjs)  
-  
-[mozjs-cli](https://github.com/ahaoboy/mozjs-cli) | 17026  
-35.2M  
-483/M | ✅unix  
-✅macArm  
-✅macAmd  
-❌windows | Rust bindings to SpiderMonkey |
-| graaljs | [graaljs](https://github.com/oracle/graaljs) | 11177  
-199.7M  
-55/M | ✅unix  
-✅macArm  
-✅macAmd  
-✅windows | A ECMAScript 2023 compliant JavaScript implementation built on GraalVM. With polyglot language interoperability support. Running Node.js applications! |
-| jjs | [nashorn](https://github.com/openjdk/nashorn) | 2577  
-1.1G  
-2/M | ✅unix  
-✅macArm  
-✅macAmd  
-✅windows | Nashorn engine is an open source implementation of the ECMAScript Edition 5.1 Language Specification |
-| hermes | [hermes](https://github.com/facebook/hermes) | 1557  
-36M  
-43/M | ✅unix  
-✅macArm  
-✅macAmd  
-✅windows | A JavaScript engine optimized for running React Native |
-| llrt | [llrt](https://github.com/awslabs/llrt) | 894  
-11.9M  
-75/M | ✅unix  
-✅macArm  
-✅macAmd  
-✅windows | LLRT (Low Latency Runtime) is a lightweight JavaScript runtime |
-| txiki.js | [txiki.js](https://github.com/saghul/txiki.js)  
-  
-[txiki.js-build](https://github.com/ahaoboy/txiki.js-build) | 831  
-5.2M  
-161/M | ✅unix  
-✅macArm  
-✅macAmd  
-✅windows | A tiny JavaScript runtime |
-| quickjs | [quickjs](https://github.com/bellard/quickjs)  
-  
-[quickjs-build](https://github.com/ahaoboy/quickjs-build) | 829  
-4.3M  
-194/M | ✅unix  
-✅macArm  
-✅macAmd  
-✅windows | QuickJS is a small and embeddable Javascript engine. It supports the ES2023 specification including modules, asynchronous generators, proxies and BigInt. |
-| primjs | [primjs](https://github.com/lynx-family/primjs)  
-  
-[primjs-build](https://github.com/ahaoboy/primjs-build) | 774  
-857K  
-924/M | ✅unix  
-✅macArm  
-✅macAmd  
-❌windows | JavaScript Engine Optimized for Lynx |
-| rquickjs | [rquickjs](https://github.com/DelSkayn/rquickjs)  
-  
-[rquickjs-cli](https://github.com/ahaoboy/rquickjs-cli) | 717  
-1.3M  
-532/M | ✅unix  
-✅macArm  
-✅macAmd  
-✅windows | High level bindings to the quickjs javascript engine |
-| quickjs-ng | [quickjs](https://github.com/quickjs-ng/quickjs) | 645  
-2M  
-326/M | ✅unix  
-✅macArm  
-✅macAmd  
-✅windows | QuickJS, the Next Generation: a mighty JavaScript engine |
-| ladybird | [ladybird](https://github.com/LadybirdBrowser/ladybird)  
-  
-[ladybird-js-build](https://github.com/ahaoboy/ladybird-js-build) | 564  
-45.8M  
-12/M | ✅unix  
-✅macArm  
-❌macAmd  
-❌windows | Truly independent web browser |
-| duktape | [duktape](https://github.com/svaarala/duktape)  
-  
-[duktape-build](https://github.com/ahaoboy/duktape-build) | 504  
-2.1M  
-237/M | ✅unix  
-✅macArm  
-✅macAmd  
-✅windows | embeddable Javascript engine with a focus on portability and compact footprint |
-| mujs | [mujs](https://github.com/ccxvii/mujs)  
-  
-[mujs-build](https://github.com/ahaoboy/mujs-build) | 377  
-414.5K  
-931/M | ✅unix  
-✅macArm  
-✅macAmd  
-✅windows | An embeddable Javascript interpreter in C |
-| mujs-one | [mujs-one](https://github.com/ahaoboy/mujs-one) | 369  
-685K  
-551/M | ✅unix  
-❌macArm  
-❌macAmd  
-❌windows | mujs by c2rust |
-| goja | [goja](https://github.com/dop251/goja)  
-  
-[goja-build](https://github.com/ahaoboy/goja-build) | 274  
-13.2M  
-20/M | ✅unix  
-✅macArm  
-✅macAmd  
-✅windows | ECMAScript/JavaScript engine in pure Go |
-| xst | [moddable](https://github.com/Moddable-OpenSource/moddable) | 270  
-2.1M  
-130/M | ✅unix  
-✅macArm  
-✅macAmd  
-❌windows | Tools for developers to create truly open IoT products using standard JavaScript on low cost microcontrollers |
-| jint | [jint](https://github.com/sebastienros/jint)  
-  
-[jint-cli](https://github.com/ahaoboy/jint-cli) | 189  
-69M  
-2/M | ✅unix  
-✅macArm  
-✅macAmd  
-✅windows | Javascript Interpreter for .NET |
-| boa | [boa](https://github.com/boa-dev/boa) | 105  
-27M  
-3/M | ✅unix  
-❌macArm  
-✅macAmd  
-✅windows | Boa is an embeddable and experimental Javascript engine written in Rust. Currently, it has support for some of the language. |
-| kiesel | [kiesel](https://codeberg.org/kiesel-js/kiesel)  
-  
-[kiesel-build](https://github.com/ahaoboy/kiesel-build) | 103  
-12.6M  
-8/M | ✅unix  
-✅macArm  
-✅macAmd  
-✅windows | A JavaScript engine written in Zig [https://kiesel.dev](https://kiesel.dev/) |
-| JerryScript | [jerryscript](https://github.com/jerryscript-project/jerryscript)  
-  
-[jerryscript-build](https://github.com/ahaoboy/jerryscript-build) | 454.2K | ❌unix  
-❌macArm  
-❌macAmd  
-❌windows | Ultra-lightweight JavaScript engine for the Internet of Things |
-| nova | [nova](https://github.com/trynova/nova) |  | ❌unix  
-❌macArm  
-❌macAmd  
-❌windows | Nova is a JavaScript and WebAssembly engine written in Rust |
-| engine262 | [engine262](https://github.com/engine262/engine262) | 7.3K | ❌unix  
-❌macArm  
-❌macAmd  
-❌windows | An implementation of ECMA-262 in JavaScript |
-| rhino | [rhino](https://github.com/mozilla/rhino) | 1.1G | ❌unix  
-❌macArm  
-❌macAmd  
-❌windows | Rhino is an open-source implementation of JavaScript written entirely in Java |
-| njs | [njs](https://github.com/nginx/njs)  
-  
-[njs-build](https://github.com/ahaoboy/njs-build) | 8.4M | ❌unix  
-❌macArm  
-❌macAmd  
-❌windows | A subset of JavaScript language to use in nginx |
+| JavaScriptCore | [JavaScriptCore](https://github.com/WebKit/webkit/tree/main/Source/JavaScriptCore)[jsc-build](https://github.com/ahaoboy/jsc-build) | 4751037.4M1268/M | ✅unix✅macArm✅macAmd✅windows | JavaScriptCore is the built-in JavaScript engine for WebKit, which implements ECMAScript as in ECMA-262 specification |
+| bun | [bun](https://github.com/oven-sh/bun)[setup-bun](https://github.com/oven-sh/setup-bun) | 4665896.8M482/M | ✅unix✅macArm✅macAmd✅windows | Incredibly fast JavaScript runtime, bundler, test runner, and package manager – all in one |
+| v8 | [v8.dev](https://v8.dev)[v8-build](https://github.com/ahaoboy/v8-build) | 4463853.3M838/M | ✅unix✅macArm✅macAmd✅windows | V8 is Google’s open source high-performance JavaScript and WebAssembly engine |
+| node | [node](https://github.com/nodejs/node)[setup-node](https://github.com/actions/setup-node) | 39849121.4M328/M | ✅unix✅macArm✅macAmd✅windows | Node.js JavaScript runtime |
+| deno | [deno](https://github.com/denoland/deno)[setup-deno](https://github.com/denoland/setup-deno) | 38797101.1M383/M | ✅unix✅macArm✅macAmd✅windows | A modern runtime for JavaScript and TypeScript |
+| dune | [dune](https://github.com/aalykiot/dune) | 3858667.1M574/M | ✅unix✅macArm✅macAmd✅windows | JavascriptA hobby runtime for JavaScript and TypeScript |
+| ChakraCore | [ChakraCore](https://github.com/chakra-core/ChakraCore)[ChakraCore-build](https://github.com/ahaoboy/ChakraCore-build) | 2003819.4M1032/M | ✅unix❌macArm✅macAmd✅windows | ChakraCore is an open source Javascript engine with a C API |
+| spidermonkey | [spidermonkey.dev](https://spidermonkey.dev)[spidermonkey-build](https://github.com/ahaoboy/spidermonkey-build) | 1890039.7M476/M | ✅unix✅macArm✅macAmd✅windows | SpiderMonkey is Mozilla’s JavaScript and WebAssembly Engine, used in Firefox |
+| mozjs | [mozjs](https://github.com/servo/mozjs)[mozjs-cli](https://github.com/ahaoboy/mozjs-cli) | 1702635.2M483/M | ✅unix✅macArm✅macAmd❌windows | Rust bindings to SpiderMonkey |
+| graaljs | [graaljs](https://github.com/oracle/graaljs) | 11177199.7M55/M | ✅unix✅macArm✅macAmd✅windows | A ECMAScript 2023 compliant JavaScript implementation built on GraalVM. With polyglot language interoperability support. Running Node.js applications! |
+| jjs | [nashorn](https://github.com/openjdk/nashorn) | 25771.1G2/M | ✅unix✅macArm✅macAmd✅windows | Nashorn engine is an open source implementation of the ECMAScript Edition 5.1 Language Specification |
+| hermes | [hermes](https://github.com/facebook/hermes) | 155736M43/M | ✅unix✅macArm✅macAmd✅windows | A JavaScript engine optimized for running React Native |
+| llrt | [llrt](https://github.com/awslabs/llrt) | 89411.9M75/M | ✅unix✅macArm✅macAmd✅windows | LLRT (Low Latency Runtime) is a lightweight JavaScript runtime |
+| txiki.js | [txiki.js](https://github.com/saghul/txiki.js)[txiki.js-build](https://github.com/ahaoboy/txiki.js-build) | 8315.2M161/M | ✅unix✅macArm✅macAmd✅windows | A tiny JavaScript runtime |
+| quickjs | [quickjs](https://github.com/bellard/quickjs)[quickjs-build](https://github.com/ahaoboy/quickjs-build) | 8294.3M194/M | ✅unix✅macArm✅macAmd✅windows | QuickJS is a small and embeddable Javascript engine. It supports the ES2023 specification including modules, asynchronous generators, proxies and BigInt. |
+| primjs | [primjs](https://github.com/lynx-family/primjs)[primjs-build](https://github.com/ahaoboy/primjs-build) | 774857K924/M | ✅unix✅macArm✅macAmd❌windows | JavaScript Engine Optimized for Lynx |
+| rquickjs | [rquickjs](https://github.com/DelSkayn/rquickjs)[rquickjs-cli](https://github.com/ahaoboy/rquickjs-cli) | 7171.3M532/M | ✅unix✅macArm✅macAmd✅windows | High level bindings to the quickjs javascript engine |
+| quickjs-ng | [quickjs](https://github.com/quickjs-ng/quickjs) | 6452M326/M | ✅unix✅macArm✅macAmd✅windows | QuickJS, the Next Generation: a mighty JavaScript engine |
+| ladybird | [ladybird](https://github.com/LadybirdBrowser/ladybird)[ladybird-js-build](https://github.com/ahaoboy/ladybird-js-build) | 56445.8M12/M | ✅unix✅macArm❌macAmd❌windows | Truly independent web browser |
+| duktape | [duktape](https://github.com/svaarala/duktape)[duktape-build](https://github.com/ahaoboy/duktape-build) | 5042.1M237/M | ✅unix✅macArm✅macAmd✅windows | embeddable Javascript engine with a focus on portability and compact footprint |
+| mujs | [mujs](https://github.com/ccxvii/mujs)[mujs-build](https://github.com/ahaoboy/mujs-build) | 377414.5K931/M | ✅unix✅macArm✅macAmd✅windows | An embeddable Javascript interpreter in C |
+| mujs-one | [mujs-one](https://github.com/ahaoboy/mujs-one) | 369685K551/M | ✅unix❌macArm❌macAmd❌windows | mujs by c2rust |
+| goja | [goja](https://github.com/dop251/goja)[goja-build](https://github.com/ahaoboy/goja-build) | 27413.2M20/M | ✅unix✅macArm✅macAmd✅windows | ECMAScript/JavaScript engine in pure Go |
+| xst | [moddable](https://github.com/Moddable-OpenSource/moddable) | 2702.1M130/M | ✅unix✅macArm✅macAmd❌windows | Tools for developers to create truly open IoT products using standard JavaScript on low cost microcontrollers |
+| jint | [jint](https://github.com/sebastienros/jint)[jint-cli](https://github.com/ahaoboy/jint-cli) | 18969M2/M | ✅unix✅macArm✅macAmd✅windows | Javascript Interpreter for .NET |
+| boa | [boa](https://github.com/boa-dev/boa) | 10527M3/M | ✅unix❌macArm✅macAmd✅windows | Boa is an embeddable and experimental Javascript engine written in Rust. Currently, it has support for some of the language. |
+| kiesel | [kiesel](https://codeberg.org/kiesel-js/kiesel)[kiesel-build](https://github.com/ahaoboy/kiesel-build) | 10312.6M8/M | ✅unix✅macArm✅macAmd✅windows | A JavaScript engine written in Zig [https://kiesel.dev](https://kiesel.dev) |
+| JerryScript | [jerryscript](https://github.com/jerryscript-project/jerryscript)[jerryscript-build](https://github.com/ahaoboy/jerryscript-build) | 454.2K | ❌unix❌macArm❌macAmd❌windows | Ultra-lightweight JavaScript engine for the Internet of Things |
+| nova | [nova](https://github.com/trynova/nova) |  | ❌unix❌macArm❌macAmd❌windows | Nova is a JavaScript and WebAssembly engine written in Rust |
+| engine262 | [engine262](https://github.com/engine262/engine262) | 7.3K | ❌unix❌macArm❌macAmd❌windows | An implementation of ECMA-262 in JavaScript |
+| rhino | [rhino](https://github.com/mozilla/rhino) | 1.1G | ❌unix❌macArm❌macAmd❌windows | Rhino is an open-source implementation of JavaScript written entirely in Java |
+| njs | [njs](https://github.com/nginx/njs)[njs-build](https://github.com/ahaoboy/njs-build) | 8.4M | ❌unix❌macArm❌macAmd❌windows | A subset of JavaScript language to use in nginx |
+
+## bench
+
+6/23/2025, 1:53:10 AM
 
 ### ubuntu
 
